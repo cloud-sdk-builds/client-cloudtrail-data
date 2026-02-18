@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-cloudtrail-data`](https://www.npmjs.com/package/@aws-sdk/client-cloudtrail-data/v/3.872.0).
+[`@aws-sdk/client-cloudtrail-data`](https://www.npmjs.com/package/@aws-sdk/client-cloudtrail-data/v/3.873.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cloudtrail-data@3.872.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cloudtrail-data@3.873.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-gTcUIoC+Dt1fTkZgU3F6uMjggmp1kfY4K5MHuNlAVPGyPUFPk5dh/OaRlfeK3QpK
+sha384-VsIVT0afVCU4aeNXeV2cKAo4Ex/SE+sAzq5bJmyygqcl/9A9//c3Vh5nnkMITwsJ
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-cloudtrail-data": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cloudtrail-data@3.872.0/index.min.mjs"
+            "@aws-sdk/client-cloudtrail-data": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cloudtrail-data@3.873.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cloudtrail-data@3.872.0/index.min.mjs": "sha384-gTcUIoC+Dt1fTkZgU3F6uMjggmp1kfY4K5MHuNlAVPGyPUFPk5dh/OaRlfeK3QpK"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cloudtrail-data@3.873.0/index.min.mjs": "sha384-VsIVT0afVCU4aeNXeV2cKAo4Ex/SE+sAzq5bJmyygqcl/9A9//c3Vh5nnkMITwsJ"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-cloudtrail-data": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cloudtrail-data@3.872.0/index.min.mjs"
+                        "@aws-sdk/client-cloudtrail-data": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cloudtrail-data@3.873.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cloudtrail-data@3.872.0/index.min.mjs": "sha384-gTcUIoC+Dt1fTkZgU3F6uMjggmp1kfY4K5MHuNlAVPGyPUFPk5dh/OaRlfeK3QpK"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cloudtrail-data@3.873.0/index.min.mjs": "sha384-VsIVT0afVCU4aeNXeV2cKAo4Ex/SE+sAzq5bJmyygqcl/9A9//c3Vh5nnkMITwsJ"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.872.0`)
+* Always pin to a specific version (`@3.873.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-cloudtrail-data/blob/refs/tags/3.872.0/LICENSE
+https://github.com/cloud-sdk-builds/client-cloudtrail-data/blob/refs/tags/3.873.0/LICENSE
 ```
 
 ---
